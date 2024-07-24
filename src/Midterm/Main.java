@@ -107,6 +107,7 @@ public class Main {
 
         inputButton.addActionListener(e -> {
             cardLayout.show(cardPanel, "InputPanel");
+            System.out.println("hi");
         });
 
         reportButton.addActionListener(e -> {

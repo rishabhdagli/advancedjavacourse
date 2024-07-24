@@ -95,6 +95,7 @@ public class ReportingApplication {
                             System.out.println("Start date found");
                             startFilterDate = LocalDate.parse((String) reportTable.getValueAt(i,0),formatter);
                             startRow = i;
+                            System.out.println("Start row: " + startRow);
                             continue;
                         }
 
