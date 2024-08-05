@@ -1,6 +1,6 @@
 package Midterm;
 
-public class TeamMember {
+public class TeamMember<S, C> {
     private String name;
     private Projects project;
     private int hoursAllocated;
